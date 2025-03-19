@@ -1,0 +1,32 @@
+{
+    "sqltools.connections": [
+        {
+            "mysqlOptions": {
+                "authProtocol": "default",
+                "enableSsl": "Disabled"
+            },
+            "previewLimit": 50,
+            "server": "school-db.ct26ig06kvxi.ap-south-1.rds.amazonaws.com",
+            "port": 3306,
+            "driver": "MySQL",
+            "name": "school",
+            "database": "school-db",
+            "username": "admin",
+            "askForPassword": true
+        },
+        {
+            "mysqlOptions": {
+                "authProtocol": "default",
+                "enableSsl": "Disabled"
+            },
+            "previewLimit": 50,
+            "server": "school-db.ct26ig06kvxi.ap-south-1.rds.amazonaws.com",
+            "port": 3306,
+            "driver": "MySQL",
+            "name": "AWS",
+            "database": "school-db",
+            "username": "admin",
+            "askForPassword": true
+        }
+    ]
+}
