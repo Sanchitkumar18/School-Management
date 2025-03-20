@@ -3,7 +3,10 @@
 This is a simple School Management API built using Node.js, Express, and MySQL. The API allows you to add schools to a database and list schools sorted by their proximity to a given location.
 ## Deployed URL
 https://school-management-api-iaif.onrender.com
+## Verifying Deployed URL(Endpoints)
+Root Route-https://school-management-api-iaif.onrender.com/
 
+API Endpoint to Fetch Schools-https://school-management-api-iaif.onrender.com/api/listSchools?latitude=12.9716&longitude=77.5946
 ## Features
 
 - **Add a School**: Add a new school to the database with details like name, address, latitude, and longitude.
