@@ -10,6 +10,11 @@ const PORT = process.env.PORT || 3000;
 app.use(cors());
 app.use(bodyParser.json());
 
+//root Route
+app.get('/', (req, res) => {
+  res.send('API is working!');
+});
+
 // Routes
 app.use('/api', schoolRoutes);
 
